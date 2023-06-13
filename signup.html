@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <script src="sharedText.js" type="text/javascript"></script>
+        <title>Panda Lovers</title>
+    </head>
+    <body>
+        <nav><script>navBar();</script></nav>
+        <form>
+            <fieldset>
+                <legend>Sign Up</legend>
+                <div class="form-div">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="user_fullname">
+                </div>
+                <div class="form-div">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="user_email">
+                </div>
+                <div class="form-div">
+                    <label for="notification">Recieve notification via email when new pictures are posted</label>
+                    <input type="checkbox" id="notification" name="user_notification">
+                </div>
+                <div class="form-div">
+                    <label for="comments">Interesting fact(s) about pandas</label>
+                    <textarea id="comments" name="user_comments"></textarea>
+                </div>
+                <div class="form-div">
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
